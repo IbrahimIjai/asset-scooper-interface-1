@@ -92,7 +92,7 @@ const myFont = localFont({
   ],
 });
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -101,6 +101,9 @@ export default function RootLayout({
     WALLETCONNECT_CONFIG,
     headers().get("cookie")
   );
+
+    const headersObj = await headers();
+  const cookies = headersObj.get('cookie')
 
   return (
     <html lang="en">
