@@ -50,9 +50,6 @@ importers:
       '@wagmi/core':
         specifier: ^2.13.4
         version: 2.22.1(@tanstack/query-core@5.90.7)(@types/react@18.3.26)(react@19.2.0)(typescript@5.9.3)(use-sync-external-store@1.4.0(react@19.2.0))(viem@2.38.6(bufferutil@4.0.9)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76))
-      '@xmtp/frames-validator':
-        specifier: ^0.6.0
-        version: 0.6.3(bufferutil@4.0.9)(typescript@5.9.3)(utf-8-validate@5.0.10)(zod@3.25.76)
       axios:
         specifier: ^1.7.3
         version: 1.13.2
